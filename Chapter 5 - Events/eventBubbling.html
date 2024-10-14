@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Bubbling</title>
+    <style>
+      .container {
+        margin: 14px;
+        padding: 14px;
+        background-color: yellow;
+      }
+      .childContainer {
+        margin: 14px;
+        padding: 14px;
+        background-color: beige;
+      }
+      .child {
+        margin: 14px;
+        padding: 14px;
+        background-color: rgb(112, 107, 201);
+        text-align: center;
+        color: rgb(3, 82, 74);
+      }
+      #btn {
+        color: aquamarine;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="childContainer">
+        <div class="child">
+          <button id="btn">Hey I am Child.</button>
+        </div>
+      </div>
+    </div>
+    <script src="scriptBubble.js"></script>
+  </body>
+</html>

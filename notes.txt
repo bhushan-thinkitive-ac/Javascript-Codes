@@ -1,0 +1,35 @@
+Basics: 
+    Explored about how to implement JS in HTML. Took an overview of concepts of JS.
+Variables, Data Types, Objects: 
+    1] Types of defining variables. let, var const. Difference between var, let, const.
+    typeof(variable), concat, naming a variable.
+    2] Data types in JS. Number, String, Boolean, Null, Undefined, Object
+    3] Objects in JS. Creating objects, accessing object properties, methods, and nested objects. Object methods in JS. Object.keys(), Object.values(), Object.entries().
+Conditionals and loops:
+    1] Conditionals: If, else, else-if, switch, case
+    2] Loops: for, while, do-while
+Functions:
+    1] Function declaration, function expression, types of function
+    2] Function arguments, return types, default arguments
+
+
+Strings:
+    1] Strings: Indexing, length, template literals, escape sequence, slicing, concatination
+    2] String methods: toUpperCase(), toLowerCase(), trim(), split(), join(), replace(), charAt(). indexOf(), startsWith(), endsWith()
+Arrays:
+    1] Arrays: Indexing, length, methods, and properties 
+    2] Array methods: push(), pop(), shift(), unshift(), splice(), sort(), reverse(), join(), indexOf(), lastIndexOf(), includes(), findIndex(), find(), 
+       filter(), map(), reduce(), forEach(), some(), every(), reduceRight()
+Events:
+    1] Event listeners: addEventListener(), removeEventListener()
+    2] Event types: click, mouseover, mouseout, keydown, keyup, contextmenu, etc.
+    3] Event Bubbling, stop propogation, setTimeout, setInterval
+Callback and Promises:
+    1] Callbacks: What are callbacks, types of callbacks, callback hell.
+    2] Promises: What are promises, promise states, promise methods, promise chaining
+    3] Promises methods: .all, .allSettled, .race, .any, .resolve, .reject
+Async/Await:
+    1] What is async/await, async/await syntax, async/await with promises
+    2] Async/await with callbacks, try/catch
+
+
